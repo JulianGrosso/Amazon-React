@@ -100,6 +100,8 @@ const HeaderOptionBasket = styled.div`
 	display: flex;
 	align-items: center;
 	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
 `;
 
 const BasketCount = styled.span`
