@@ -12,26 +12,28 @@ import {
 
 const Home = () => {
 	return (
-		<HomeContainer>
-			<Hero>
-				<HeroImg
-					src="https://m.media-amazon.com/images/I/61CX1noQ8nL._SX3000_.jpg"
-					alt=""
-				/>
-			</Hero>
-			<HomeRow>
-				<Product {...product01} />
-				<Product {...product02} />
-			</HomeRow>
-			<HomeRow>
-				<Product {...product03} />
-				<Product {...product04} />
-				<Product {...product05} />
-			</HomeRow>
-			<HomeRow>
-				<Product {...product06} />
-			</HomeRow>
-		</HomeContainer>
+		<>
+			<HomeContainer>
+				<Hero>
+					<HeroImg
+						src="https://m.media-amazon.com/images/I/61CX1noQ8nL._SX3000_.jpg"
+						alt=""
+					/>
+				</Hero>
+				<HomeRow>
+					<Product {...product01} />
+					<Product {...product02} />
+				</HomeRow>
+				<HomeRow>
+					<Product {...product03} />
+					<Product {...product04} />
+					<Product {...product05} />
+				</HomeRow>
+				<HomeRow>
+					<Product {...product06} />
+				</HomeRow>
+			</HomeContainer>
+		</>
 	);
 };
 
