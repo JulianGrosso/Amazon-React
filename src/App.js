@@ -18,7 +18,7 @@ function App() {
 					exact
 				/>
 				<Route
-					path="/cart"
+					path="/checkout"
 					element={
 						<>
 							<Header />

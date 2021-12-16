@@ -2,24 +2,21 @@ import React from "react";
 import styled from "styled-components";
 import { useStateValue } from "../features/StateProvider";
 
-const Product = ({ id, title, image, price, rating }) => {
-	const [state, dispatch] = useStateValue();
+const CheckoutProduct = ({ id, title, image, price, rating }) => {
+	const [{ basket }, dispatch] = useStateValue();
 
-	const addToBasket = () => {
+	const removeFromBasket = () => {
 		dispatch({
-			type: "ADD_TO_BASKET",
-			item: {
-				id: id,
-				title: title,
-				image: image,
-				price: price,
-				rating: rating,
-			},
+			type: "REMOVE_FROM_BASKET",
+			id: id,
 		});
 	};
 
 	return (
 		<ProductContainer>
+			<ImgWrap>
+				<ProductImg src={image} alt="" />
+			</ImgWrap>
 			<Info>
 				<Title>{title}</Title>
 				<Price>
@@ -33,49 +30,48 @@ const Product = ({ id, title, image, price, rating }) => {
 							<p>⭐</p>
 						))}
 				</Rating>
+				<Button onClick={removeFromBasket}>Remove from Basket</Button>
 			</Info>
-			<ProductImg src={image} alt="" />
-			<Button onClick={addToBasket}>Add to Basket</Button>
 		</ProductContainer>
 	);
 };
 
-export default Product;
+export default CheckoutProduct;
 
 const ProductContainer = styled.div`
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-end;
-	margin: 10px;
-	padding: 20px;
-	width: 100%;
-	max-height: 400px;
-	min-width: 100px;
-	background-color: #fff;
-	z-index: 1;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-width: 90%;
 `;
 
 const Info = styled.div`
-	height: 100px;
-	margin-bottom: 15px;
+	padding-left: 20px;
 `;
 
-const Title = styled.p``;
+const Title = styled.p`
+	font-size: 17px;
+`;
 
 const Price = styled.p`
 	margin-top: 5px;
+	font-size: 17px;
 `;
 
 const Rating = styled.div`
 	display: flex;
 `;
 
+const ImgWrap = styled.div`
+	min-width: 300px;
+	display: flex;
+	justify-content: center;
+`;
+
 const ProductImg = styled.img`
-	max-height: 200px;
-	width: 100%;
 	object-fit: contain;
-	margin-bottom: 15px;
+	max-width: 250px;
+	max-height: 180px;
 `;
 
 const Button = styled.button`
