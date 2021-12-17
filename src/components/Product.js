@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useStateValue } from "../features/StateProvider";
+import { useStateValue } from "../context/StateProvider";
 
 const Product = ({ id, title, image, price, rating }) => {
 	const [state, dispatch] = useStateValue();
@@ -19,7 +19,7 @@ const Product = ({ id, title, image, price, rating }) => {
 	};
 
 	return (
-		<ProductContainer>
+		<ProductContainer id={id}>
 			<Info>
 				<Title>{title}</Title>
 				<Price>
@@ -30,7 +30,7 @@ const Product = ({ id, title, image, price, rating }) => {
 					{Array(rating)
 						.fill()
 						.map((_, i) => (
-							<p>⭐</p>
+							<p key={i}>⭐</p>
 						))}
 				</Rating>
 			</Info>
@@ -79,10 +79,15 @@ const ProductImg = styled.img`
 `;
 
 const Button = styled.button`
-	background: #f0c14b;
-	border: 1px solid;
-	margin-top: 10px;
-	border-color: #a88734 #9c7e31 #846a29;
 	color: #111;
-	padding: 4px;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	padding: 6px 14px;
+	border: 1px solid;
+	border-radius: 4px;
+	border-color: #fcd200;
+	background: #ffd814;
+	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+	cursor: pointer;
 `;

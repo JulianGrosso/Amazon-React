@@ -1,10 +1,10 @@
 export const product01 = {
-	id: "16395998001",
+	id: "16395998003",
 	title:
-		"The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
-	price: 11.96,
-	rating: 5,
-	image: "https://m.media-amazon.com/images/I/51T-sMqSMiL.jpg",
+		"Amazon Halo View fitness tracker, with color display for at-a-glance access to heart rate, activity, and sleep tracking – Active Black – Medium/Large",
+	price: 199.99,
+	rating: 3,
+	image: "https://m.media-amazon.com/images/I/51u6VxGdpHL._AC_SX569_.jpg",
 };
 
 export const product02 = {
@@ -17,21 +17,21 @@ export const product02 = {
 };
 
 export const product03 = {
-	id: "16395998003",
-	title:
-		"Amazon Halo View fitness tracker, with color display for at-a-glance access to heart rate, activity, and sleep tracking – Active Black – Medium/Large",
-	price: 199.99,
-	rating: 3,
-	image: "https://m.media-amazon.com/images/I/51u6VxGdpHL._AC_SX569_.jpg",
-};
-
-export const product04 = {
 	id: "16395998004",
 	title:
 		"Echo (4th Gen) | With premium sound, smart home hub, and Alexa | Charcoal",
 	price: 98.99,
 	rating: 4,
 	image: "https://m.media-amazon.com/images/I/71JB6hM6Z6L._AC_SX679_.jpg",
+};
+
+export const product04 = {
+	id: "16395998001",
+	title:
+		"The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+	price: 11.96,
+	rating: 5,
+	image: "https://m.media-amazon.com/images/I/51T-sMqSMiL.jpg",
 };
 
 export const product05 = {

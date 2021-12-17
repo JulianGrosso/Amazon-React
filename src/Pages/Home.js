@@ -47,16 +47,21 @@ const HomeContainer = styled.div`
 	margin-right: auto;
 	margin-bottom: 25px;
 	max-width: 1500px;
+	overflow-x: hidden;
+
+	margin-top: 100px;
 `;
 
 const Hero = styled.div`
-	margin-bottom: -150px;
+	margin-bottom: -210px;
+	display: flex;
+	justify-content: center;
 `;
 
 const HeroImg = styled.img`
-	width: 100%;
+	width: 105.5%;
 	z-index: -1;
-	margin-bottom: -150px;
+	margin-bottom: -152px;
 	mask-image: linear-gradient(
 		to bottom,
 		rgba(0, 0, 0, 1) 45%,
@@ -67,6 +72,6 @@ const HeroImg = styled.img`
 const HomeRow = styled.div`
 	display: flex;
 	z-index: 1;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
 `;

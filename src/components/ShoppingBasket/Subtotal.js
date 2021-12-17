@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import NumberFormat from "react-number-format";
-import { useStateValue } from "../features/StateProvider";
-import { getBasketTotal } from "../features/reducers";
+import { getBasketTotal } from "../../context/reducers";
+import { useStateValue } from "../../context/StateProvider";
 
 const Subtotal = () => {
 	const [state] = useStateValue();
@@ -56,12 +56,15 @@ const Gift = styled.small`
 `;
 
 const Button = styled.button`
-	background: #f0c14b;
-	border-radius: 2px;
-	width: 100%;
-	height: 30px;
-	border: 1px solid;
-	margin-top: 10px;
-	border-color: #a88734 #9c7e31 #846a29;
 	color: #111;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	padding: 6px 14px;
+	border: 1px solid;
+	border-radius: 4px;
+	border-color: #fcd200;
+	background: #ffd814;
+	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+	cursor: pointer;
 `;

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import CheckoutProduct from "../components/CheckoutProduct";
-import Subtotal from "../components/Subtotal";
-import { useStateValue } from "../features/StateProvider";
+import CheckoutProduct from "../components/ShoppingBasket/CheckoutProduct";
+import Subtotal from "../components/ShoppingBasket/Subtotal";
+import { useStateValue } from "../context/StateProvider";
 
 const Checkout = () => {
 	const [state] = useStateValue();
@@ -23,6 +23,7 @@ const Checkout = () => {
 						image={item.image}
 						price={item.price}
 						rating={item.rating}
+						key={Math.random()}
 					/>
 				))}
 			</LeftColumn>
@@ -40,6 +41,8 @@ const CheckoutContainer = styled.div`
 	padding: 20px;
 	background-color: #fff;
 	height: max-content;
+	padding-bottom: 40px;
+	margin-top: 100px;
 `;
 
 const LeftColumn = styled.div``;

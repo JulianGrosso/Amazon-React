@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./Pages/Home";
 import Checkout from "./Pages/Checkout";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 						<>
 							<Header />
 							<Home />
+							<Footer />
 						</>
 					}
 					exact
@@ -23,6 +25,7 @@ function App() {
 						<>
 							<Header />
 							<Checkout />
+							<Footer />
 						</>
 					}
 					exact
