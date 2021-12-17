@@ -41,6 +41,7 @@ const CheckoutContainer = styled.div`
 	padding: 20px;
 	background-color: #fff;
 	height: max-content;
+	min-height: 400px;
 	padding-bottom: 40px;
 	margin-top: 100px;
 `;

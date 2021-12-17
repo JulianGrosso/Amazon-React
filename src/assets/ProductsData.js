@@ -50,3 +50,40 @@ export const product06 = {
 	rating: 5,
 	image: "https://m.media-amazon.com/images/I/61SQz8S+fEL._AC_SX679_.jpg",
 };
+
+export const product07 = {
+	id: "16395998007",
+	title:
+		"Oculus Quest 2 — Advanced All-In-One Virtual Reality Headset — 256 GB",
+	price: 399,
+	rating: 5,
+	image: "https://m.media-amazon.com/images/I/61kwRNPtMpL._SX522_.jpg",
+};
+
+export const product08 = {
+	id: "16395998008",
+	title:
+		"Nintendo Switch w/ Neon Blue & Neon Red Joy-Con + Mario Kart 8 Deluxe (Full Game Download) + 3 Month Nintendo Switch Online Individual Membership",
+	price: 389.95,
+	rating: 5,
+	image: "https://m.media-amazon.com/images/I/51Ue4P6FrwL._SX522_.jpg",
+};
+
+export const product09 = {
+	id: "16395998009",
+	title:
+		"Xbox Series S - 512GB SSD Console with Wireless Controller - EU Version with US Power Cable",
+	price: 359,
+	rating: 4,
+	image: "https://m.media-amazon.com/images/I/61-x29sqlpS._AC_SY450_.jpg",
+};
+
+export const product10 = {
+	id: "16395998010",
+	title:
+		"iPhone Charger, TAKAGI Lightning Cable 3PACK 6FT Nylon Braided USB Charging Cable High Speed Data Sync",
+	price: 9.99,
+	rating: 4,
+	image:
+		"https://images-na.ssl-images-amazon.com/images/I/51jxWTdyNOL._SY445_SX342_QL70_FMwebp_.jpg",
+};

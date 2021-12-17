@@ -46,18 +46,16 @@ const ProductContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-between;
 	margin: 10px;
 	padding: 20px;
 	width: 100%;
-	max-height: 400px;
 	min-width: 100px;
 	background-color: #fff;
 	z-index: 1;
 `;
 
 const Info = styled.div`
-	height: 100px;
 	margin-bottom: 15px;
 `;
 
@@ -68,6 +66,7 @@ const Price = styled.p`
 `;
 
 const Rating = styled.div`
+	margin-top: 5px;
 	display: flex;
 `;
 
@@ -75,7 +74,7 @@ const ProductImg = styled.img`
 	max-height: 200px;
 	width: 100%;
 	object-fit: contain;
-	margin-bottom: 15px;
+	// margin-bottom: 15px;
 `;
 
 const Button = styled.button`

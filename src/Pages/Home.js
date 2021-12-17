@@ -8,6 +8,10 @@ import {
 	product04,
 	product05,
 	product06,
+	product07,
+	product08,
+	product09,
+	product10,
 } from "../assets/ProductsData";
 
 const Home = () => {
@@ -21,13 +25,19 @@ const Home = () => {
 					/>
 				</Hero>
 				<HomeRow>
+					<Product {...product07} />
 					<Product {...product01} />
+					<Product {...product05} />
+					<Product {...product10} />
+				</HomeRow>
+				<HomeRow>
+					<Product {...product08} />
 					<Product {...product02} />
 				</HomeRow>
 				<HomeRow>
 					<Product {...product03} />
 					<Product {...product04} />
-					<Product {...product05} />
+					<Product {...product09} />
 				</HomeRow>
 				<HomeRow>
 					<Product {...product06} />

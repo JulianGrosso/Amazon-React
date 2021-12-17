@@ -96,14 +96,14 @@ const SearchBar = styled.div`
 	align-items: center;
 	border-radius: 24px;
 	margin-left: 14px;
-	margin-right: 10px;
+	margin-right: -30px;
 
 	input {
 		height: 40px;
 		padding: 10px;
 		border: none;
 		width: 100%;
-		border-radius: 4px 0px 0px 4px;
+		border-radius: 4px 4px 4px 4px;
 	}
 `;
 
@@ -113,6 +113,9 @@ const SearchIconStyled = styled(SearchIcon)`
 	width: 45px !important;
 	background-color: #febd69;
 	border-radius: 0px 4px 4px 0px;
+	position: relative;
+	right: 45px;
+	cursor: pointer;
 `;
 
 const LanguageIco = styled.img`
@@ -120,7 +123,7 @@ const LanguageIco = styled.img`
 	object-fit: contain;
 	margin-left: 22px;
 	margin-right: 22px;
-	margin-top: 12px;
+	margin-top: 10px;
 `;
 
 const HeaderNav = styled.div`
