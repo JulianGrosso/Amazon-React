@@ -29,10 +29,12 @@ const Header = () => {
 				</SearchBar>
 				<LanguageIco src="/img/eng_ico.png" alt="Eng" />
 				<HeaderNav>
-					<HeaderOption>
-						<OptionLineOne>Hello, Sign in</OptionLineOne>
-						<OptionLineTwo>Account & List</OptionLineTwo>
-					</HeaderOption>
+					<Link to="/login">
+						<HeaderOption>
+							<OptionLineOne>Hello, Sign in</OptionLineOne>
+							<OptionLineTwo>Account & List</OptionLineTwo>
+						</HeaderOption>
+					</Link>
 					<HeaderOption>
 						<OptionLineOne>Returns</OptionLineOne>
 						<OptionLineTwo>& Orders</OptionLineTwo>

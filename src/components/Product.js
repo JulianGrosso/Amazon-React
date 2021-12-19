@@ -89,4 +89,9 @@ const Button = styled.button`
 	background: #ffd814;
 	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 	cursor: pointer;
+	transition: all 150ms ease-in-out;
+
+	:hover {
+		transform: scale(1.01);
+	}
 `;

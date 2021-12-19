@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Home from "./Pages/Home";
 import Checkout from "./Pages/Checkout";
 import Footer from "./components/Footer";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 function App() {
 	return (
@@ -15,6 +17,24 @@ function App() {
 							<Header />
 							<Home />
 							<Footer />
+						</>
+					}
+					exact
+				/>
+				<Route
+					path="/login"
+					element={
+						<>
+							<Login />
+						</>
+					}
+					exact
+				/>
+				<Route
+					path="/register"
+					element={
+						<>
+							<Register />
 						</>
 					}
 					exact
