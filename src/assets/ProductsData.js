@@ -11,7 +11,7 @@ export const product02 = {
 	id: "16395998002",
 	title:
 		"KUCCU Stand Mixer, 6.5 Qt 660W, 6-Speed Tilt-Head Food Dough Mixer, Kitchen Electric Mixer with Stainless Steel Bowl,Dough Hook,Whisk, Beater, Egg white separator (6.5-QT, Black)",
-	price: 239,
+	price: 239.85,
 	rating: 4,
 	image: "https://m.media-amazon.com/images/I/71hIoWhVckL._AC_SX679_.jpg",
 };
@@ -55,7 +55,7 @@ export const product07 = {
 	id: "16395998007",
 	title:
 		"Oculus Quest 2 — Advanced All-In-One Virtual Reality Headset — 256 GB",
-	price: 399,
+	price: 399.99,
 	rating: 5,
 	image: "https://m.media-amazon.com/images/I/61kwRNPtMpL._SX522_.jpg",
 };
@@ -73,7 +73,7 @@ export const product09 = {
 	id: "16395998009",
 	title:
 		"Xbox Series S - 512GB SSD Console with Wireless Controller - EU Version with US Power Cable",
-	price: 359,
+	price: 359.85,
 	rating: 4,
 	image: "https://m.media-amazon.com/images/I/61-x29sqlpS._AC_SY450_.jpg",
 };
