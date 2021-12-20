@@ -24,7 +24,7 @@ const Register = () => {
 			<Link to="/">
 				<Logo src="/img/Amazon_logo.svg" alt="Amazon" />
 			</Link>
-			<LoginContainer>
+			<CreateAccountContainer>
 				<h1>Create account</h1>
 				<form>
 					<h5>Your name</h5>
@@ -49,7 +49,7 @@ const Register = () => {
 					/>
 
 					<button type="submit" onClick={register}>
-						Create your Amazon Account
+						Create your Amazon account
 					</button>
 				</form>
 
@@ -57,7 +57,13 @@ const Register = () => {
 					By creating an account, you agree to Conditions of Use and Privacy
 					Notice.
 				</p>
-			</LoginContainer>
+			</CreateAccountContainer>
+			<ToLoginWrap>
+				<div>
+					<h5>Already have an account?</h5>
+				</div>
+				<button onClick={() => navigate("/login")}>Sign-In</button>
+			</ToLoginWrap>
 		</Container>
 	);
 };
@@ -82,7 +88,7 @@ const Logo = styled.img`
 	margin-right: auto;
 `;
 
-const LoginContainer = styled.div`
+const CreateAccountContainer = styled.div`
 	width: 350px;
 	height: fit-content;
 	display: flex;
@@ -140,7 +146,7 @@ const LoginContainer = styled.div`
 	}
 `;
 
-const NewAccountWrap = styled.div`
+const ToLoginWrap = styled.div`
 	width: 350px;
 	height: fit-content;
 	display: flex;

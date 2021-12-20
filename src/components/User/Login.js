@@ -18,24 +18,13 @@ const Login = () => {
 		navigate("/");
 	};
 
-	const register = (e) => {
-		e.preventDefault();
-
-		alert(
-			`THIS FORM IS ONLY FOR FRONT-END TEST\nYOUR DATA WAS NOT SAVED\n\nHi ${email}, your account has been successfully created!\nYou registered this password: ${password}\n\n---- After this alert you will be redirected to the home page ----`
-		);
-
-		// redirect to Home page
-		navigate("/");
-	};
-
 	return (
 		<Container>
 			<Link to="/">
 				<Logo src="/img/Amazon_logo.svg" alt="Amazon" />
 			</Link>
 			<LoginContainer>
-				<h1>Sign In</h1>
+				<h1>Sign-In</h1>
 				<form>
 					<h5>Email</h5>
 					<input

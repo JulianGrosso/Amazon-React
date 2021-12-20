@@ -3,8 +3,8 @@ import Header from "./components/Header";
 import Home from "./Pages/Home";
 import Checkout from "./Pages/Checkout";
 import Footer from "./components/Footer";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Login from "./components/User/Login";
+import Register from "./components/User/Register";
 
 function App() {
 	return (
