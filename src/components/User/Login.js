@@ -45,9 +45,7 @@ const Login = () => {
 					</button>
 				</form>
 
-				<p>
-					By continuing, you agree to Conditions of Use and Privacy Notice.
-				</p>
+				<p>By continuing, you agree to Conditions of Use and Privacy Notice.</p>
 			</LoginContainer>
 			<NewAccountWrap>
 				<div>
@@ -131,10 +129,12 @@ const LoginContainer = styled.div`
 		background: #ffd814;
 		box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 		cursor: pointer;
-		transition: all 150ms ease-in-out;
+		transition: all 200ms ease-in-out;
 
 		:hover {
-			transform: scale(1.01);
+			background: #f7ca00;
+			border-color: #f2c200;
+			box-shadow: 0 4px 8px 0 rgb(213 217 217 / 80%);
 		}
 	}
 `;
@@ -184,6 +184,7 @@ const NewAccountWrap = styled.div`
 		text-align: center;
 		vertical-align: middle;
 		margin-top: 20px;
+		background: #e7e9ec;
 		border: 1px solid;
 		border-radius: 4px;
 		border-color: darkgray;
@@ -192,7 +193,7 @@ const NewAccountWrap = styled.div`
 		transition: all 150ms ease-in-out;
 
 		:hover {
-			transform: scale(1.01);
+			background: #eee;
 		}
 	}
 `;

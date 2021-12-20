@@ -62,14 +62,16 @@ const Button = styled.button`
 	margin-top: 10px;
 	padding: 6px 14px;
 	border: 1px solid;
-	border-radius: 4px;
+	border-radius: 8px;
 	border-color: #fcd200;
 	background: #ffd814;
 	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 	cursor: pointer;
-	transition: all 150ms ease-in-out;
+	transition: all 200ms ease-in-out;
 
 	:hover {
-		transform: scale(1.01);
+		background: #f7ca00;
+		border-color: #f2c200;
+		box-shadow: 0 4px 8px 0 rgb(213 217 217 / 80%);
 	}
 `;
