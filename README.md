@@ -1,4 +1,4 @@
-<img src="public/img/amazon_logo_h.png" width="400" height="auto">
+<img src="public/img/amazon_logo_github.png" width="350" height="auto">
 
 # Amazon Clone with React
 
