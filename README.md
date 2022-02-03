@@ -1,4 +1,4 @@
-<a href="https://amzn-clone-react04-jg.netlify.app/"><img src="./public/img/Amazon_App-Showcase_02_Browser_LOW.png" width="auto" height="auto"></a>
+<a href="https://amzn-clone-react04-jg.netlify.app/"><img src="./github_assets/Amazon_App-Showcase_02_Browser_LOW.png" width="auto" height="auto"></a>
 
 # Amazon Clone with React
 
@@ -17,9 +17,9 @@ _Disclaimer: This project was done for educational purposes only._
 - Shopping Basket page with the selected products and the subtotal for payment.
 - Login and User Register pages.
 
-<a href="https://amzn-clone-react04-jg.netlify.app/"><img src="./public/img/Amazon_App-Showcase_03_DesktopX2_LOW.png" width="auto" height="auto"></a>
+<a href="https://amzn-clone-react04-jg.netlify.app/"><img src="./github_assets/Amazon_App-Showcase_03_DesktopX2_LOW.png" width="auto" height="auto"></a>
 
----
+___
 
 ## Getting Started with Create React App
 
